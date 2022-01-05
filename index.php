@@ -165,9 +165,9 @@ function processMessage($message) {
 XO Game Bot
 
 Simple Bot which lets you play the xo game with your friends...
-This bot works on inline mode, open the chat where you want to play, type `@YourBotUsername play` and click on the poup to start your game.", 'parse_mode'=>"MarkDown",'reply_markup' => array(
+This bot works on inline mode, open the chat where you want to play, type `@Twinkleanime_bot play` and click on the poup to start your game.", 'parse_mode'=>"MarkDown",'reply_markup' => array(
             "inline_keyboard"=>array(
-			    array(array("text"=>"CREATOR","url"=>"https://telegram.me/your_username")),
+			    array(array("text"=>"CREATOR","url"=>"https://telegram.me/Twinkleanime_bot")),
 			    array(array("text"=>"♂Start XO Game","switch_inline_query"=>md5(date("YMDms"))))
 			)
 		)));
