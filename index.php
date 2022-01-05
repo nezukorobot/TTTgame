@@ -12,7 +12,7 @@ Thanks BenchamXd
 
 TO SET WEBHOOK - https://api.telegram.org/bot<token>/setwebhook?url=WEBURL(from line 366)
 */
-define('BOT_TOKEN', 'your_bot_token');
+define('BOT_TOKEN', '5025236645:AAE3RkpYTP5IA4RMci9hiOvoGXqlXRqK-UE');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
